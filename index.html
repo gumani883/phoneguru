@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+	function Start() {
+		document.getElementById('time_here').innerHTML = new Date()		
+	}
+
+	setInterval(Start, 1000);
+</script>
+</head>
+<body onload="Start()">
+<p>&nbsp;</p>
+<center>
+	<h1>
+		<font color=red>
+			time
+		</font>
+		zone
+		<p>&nbsp;</p>
+		<p id="time_here"></p>
+	</h1>
+</center>
+</body>
+</html>
